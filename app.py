@@ -26,7 +26,7 @@ api_key = st.secrets["OPENAI_API_KEY"]
 # -------------------------------
 # Model --> OpenAI GPT-5
 # -------------------------------
-llm = ChatOpenAI(model="gpt-5", api_key=api_key)
+llm = ChatOpenAI(model="gpt-5", api_key=api_key, temperature=1)
 
 # -------------------------------
 # Load Data (Excel sheets) --> FetiiAI_Data_Austin.xlsx
