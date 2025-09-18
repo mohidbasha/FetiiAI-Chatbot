@@ -1,8 +1,10 @@
 streamlit==1.37.1
 pandas==2.2.2
 openpyxl==3.1.5
-pydantic==2.8.2
+
 langchain==0.2.14
+langgraph==0.2.26
 langchain-openai==0.1.22
-langgraph==0.2.33
-python-dateutil==2.9.0.post0
+
+pydantic==2.8.2
+typing_extensions==4.12.2
